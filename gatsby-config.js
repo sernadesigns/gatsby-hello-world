@@ -6,6 +6,10 @@
 
 module.exports = {
 	pathPrefix: `/gatsby-hello-world`,
+	siteMetadata: {
+		title: `MySweetSite`,
+		tagline: `This is a tagline from siteMetadata`
+	},
 	plugins: [
 		{
 			resolve: `gatsby-plugin-typography`,

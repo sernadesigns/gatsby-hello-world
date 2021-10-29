@@ -3,7 +3,7 @@ import { graphql } from 'gatsby'
 import Header from '../components/header'
 import Layout from '../components/layout'
 
-export default ({ data }) => (
+const Index = ({ data }) => (
   <Layout>
 		<Header headerText="Hi! I'm building a fake Gatsby site as part of a tutorial!" />
     <p>What do I like to do? Lots of course but definitely enjoy building websites.</p>
@@ -21,3 +21,5 @@ export const query = graphql`
 		}
 	}
 `
+
+export default Index
